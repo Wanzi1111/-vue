@@ -1,0 +1,30 @@
+module.exports={
+    1:{
+        nametype:"用户管理",
+        id:1,
+        icon:"el-icon-menu",
+        name:"用户列表",
+        to:"/userlist" 
+    },
+    2:{
+        nametype:"用户管理",
+        id:2,
+        icon:"el-icon-menu",
+        name:"添加用户",
+        to:"/useradd" 
+    },
+    3:{
+        nametype:"角色管理",
+        id:3,
+        icon:"el-icon-location",
+        name:"角色列表",
+        to:"/rolelist" 
+    },
+    4:{
+        nametype:"角色管理",
+        id:4,
+        icon:"el-icon-location",
+        name:"添加角色",
+        to:"/roleadd" 
+    }
+}
